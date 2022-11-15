@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.contianer{
+    width: 1170px;
+    margin: auto;
+}
+
+
+/* header part start */
+#main-header{
+    height: 90px;
+    width: 100%;
+    background: black;
+    position: absolute;
+}
+.main-div{
+    display: flex;
+    /* background: #000; */
+}
+.logo{
+    width: 20%;
+    line-height: 90px;
+}
+.all-bar{
+    width: 80%;
+}
+.all-bar ul{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 90px;
+    
+}
+.all-bar ul li a{
+    margin: 0 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.all-bar ul li:last-child a{
+    margin-right: 0;
+}
+.all-bar ul li a:hover{
+    color: #e84545;
+}
+
+
+
+
+/* header part :end */
+/* bannar part :start */
+
+
+#bannar-main{
+    background-image: url(..//images/ActiveBox.jpg);
+    padding: 255px 155px;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-top: -3px;
+}
+.bannar-tx{
+    text-align: center;
+   
+}
+.bannar-tx h1{
+    color: #ffff;
+    font-size: 65px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.bannar-tx p{
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+.bottom button{
+    background-color: #e84545;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+/* bannar part :end */
+/* services */
+.img-box{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.img-tag i{
+   font-size: 40px;
+}
+.img-tag{
+    width: 30%;
+    text-align: center;
+}
+.img-tag p {
+    padding: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+}
+.img-tag h2{
+    color: #2d3033;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+/* services */
+/* photo :start */
+.all-pic{
+    display: flex;
+}
+#main-photo{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+.photo-1{
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+.photo-1 img{
+    width: 100%;
+    height: 100%;
+}
+.hover{
+    position: absolute;
+    top: 150px;
+    left:100px;
+    transform: translateY(-50);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.photo-1:hover .hover{
+    opacity: 1;
+    visibility:visible;
+    color: #fff;
+    z-index: 1;
+}
+.hover h2{
+    text-transform: uppercase;
+}
+.photo-1::after{
+    content: '';
+    position: absolute;
+    background-color: #e84545;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.photo-1:hover::after{
+    opacity: 1;
+    visibility:visible;
+
+}
+
+
+
+
+
+
+/* photo :end */
+
+
+.middle-part-1{
+    display: flex;
+    width: 23%;
+
+    
+}
+.middle-ph{
+  margin-right: 30px; 
+}
+.middle-ph p{
+    color: red;
+    padding-top: 20px;
+}
+.padd-top{
+    padding-top: 20px;
+}
+.middle-ph h2{
+    padding-top: 30px;
+}
+.p-tag h5{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.p-tag i{
+ /* padding: 30px 0; */
+ border: 2px solid rgb(66, 60, 60);
+ margin-top: 20px;
+}
+/* ppppp */
+.sub-pho{
+    display: flex;
+    padding-top: 30px;
+}
+.fs-pho{
+    width: 50%;
+}
+.fs-pho-2{
+    background-color: #53354a;
+    width: 50%;
+    
+}
+.fs-pho-2 h2{
+    padding-top: 200px;
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: 1000; */
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 36px;
+    margin-left: 30px;
+}
+.fs-pho-2 p{
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+.end-text{
+    padding-top: 40px;
+    text-align: center;
+}
+.end-text P{
+    padding-top: 20px;
+}
+.colour {
+    padding-top: 10px;
+    
+}
+.colour button{
+    background-color: #e84545;
+}
+/* end feOffset */
+.text-pp{
+    width: 30%;
+    padding: 30px;
+    color: #ffffff;
+
+}
+
+.finish-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+}
+.text-pp h3{
+    padding-top: 20px;
+}
+.text-pp i{
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+#finish{
+background-color: #3a3e64;
+}
+
+
+.munna-hasan{
+    padding-top: 30px;
+    /* width: 22px; */
+    text-align: center;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+#munna{
+    background-color: #313454;
+}
+
